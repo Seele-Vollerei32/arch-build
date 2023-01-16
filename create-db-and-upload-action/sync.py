@@ -134,3 +134,4 @@ if __name__ == "__main__":
             rclone_delete(i.filename + ".sig")
 
     download_local_miss_files(local_packages, remote_packages, old_packages)
+    print("Finished up")
